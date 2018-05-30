@@ -9,6 +9,16 @@ and open the template in the editor.
 */
 
 /* mettre une animation pour que le text descriptif vien de la droite*/
+
+@keyframes textcorp {
+    from {
+        margin-right: -3000px;
+    }
+    to {
+        margin-right: 0px;
+    }
+}
+
 .content {
     text-align: center;
     font-family: 'Arvo', serif;
@@ -38,7 +48,7 @@ and open the template in the editor.
 
 #corptextcontent h2 {
     text-align: left;
-    font-size: : 150%;
+    font-size: 150%;
 }
 
 .contentcorp {
@@ -50,6 +60,9 @@ and open the template in the editor.
 }
 
 #epaule:target, #coude:target, #poignet:target, #hanche:target, #genou:target, #cheville:target {
+    position: relative;
     display: inline-block;
+    animation-name: textcorp;
+    animation-duration: 1s;
 }
 /*Fin des div à cacher ou non*/
