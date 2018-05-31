@@ -33,7 +33,7 @@ and open the template in the editor.
     position: relative;
     display: inline-block;
     width: 158px;
-    height: 508px;
+    height: 608px;
     background: url(images/corpextend.png) left top no-repeat;
 }
 
@@ -60,13 +60,12 @@ and open the template in the editor.
 #epaule, #coude, #poignet, #hanche, #genou, #cheville {
     display:none;
 }
-/*Fin des div à cacher ou non*/
 
 .corp .overlay {
     position: absolute;
     display: inline-block;
     width: 158px;
-    height: 508px;
+    height: 608px;
     background: url(images/corpextend.png) 158px top no-repeat;
     top:0;
     left:0;
