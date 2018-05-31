@@ -43,7 +43,6 @@ and open the template in the editor.
     display: inline-block;
     width: 200px;
     height: 608px;
-    border: 1px solid;
 }
 
 #corptextcontent p {
@@ -66,7 +65,6 @@ and open the template in the editor.
 
 .corp .overlay {
     position: absolute;
-    border: 1px solid;
     display: inline-block;
     width: 158px;
     height: 608px;
