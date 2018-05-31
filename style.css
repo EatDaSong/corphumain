@@ -29,10 +29,12 @@ and open the template in the editor.
     font-size: 300%;
 }
 
-#corp{
+.corp{
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 158px;
+    height: 508px;
+    background: url(images/corpextend.png) left top no-repeat;
 }
 
 #corptextcontent{
@@ -59,10 +61,42 @@ and open the template in the editor.
     display:none;
 }
 
-#epaule:target, #coude:target, #poignet:target, #hanche:target, #genou:target, #cheville:target {
+
+#Epaule:target, #coude:target, #poignet:target, #hanche:target, #genou:target, #cheville:target {
     position: relative;
     display: inline-block;
     animation-name: textcorp;
     animation-duration: 1s;
 }
 /*Fin des div à cacher ou non*/
+
+.corp .overlay {
+    position: absolute;
+    display: inline-block;
+    width: 158px;
+    height: 508px;
+    background: url(images/corpextend.png) 158px top no-repeat;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.corp img {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+.corp .info {
+    position: fixed;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    padding: 0 10px;
+    top:0;
+    left:0;
+    z-index: 3;
+    display: inline;
+    text-align: center;
+}
