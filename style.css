@@ -60,14 +60,6 @@ and open the template in the editor.
 #epaule, #coude, #poignet, #hanche, #genou, #cheville {
     display:none;
 }
-
-
-#Epaule:target, #coude:target, #poignet:target, #hanche:target, #genou:target, #cheville:target {
-    position: relative;
-    display: inline-block;
-    animation-name: textcorp;
-    animation-duration: 1s;
-}
 /*Fin des div à cacher ou non*/
 
 .corp .overlay {
